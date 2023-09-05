@@ -4,14 +4,20 @@
 	background-image: url("./img/fundo.png");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center left;
 	height: 100vh;
+}
+
+#headline {
+	font-size: large;
 }
 
 #cover2{
 	background-image: url("https://www.teahub.io/photos/full/12-126339_wallpaper-of-video-game-the-last-of-us.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100vh;
+	background-position: center;
+	height: 110vh;
 }
 main{
     max-width: 1080px;
@@ -62,4 +68,31 @@ main{
 
 .logo{
 	width: 150px;
-} 
+  }
+
+@media (max-width: 640px) {
+	.logo {
+	  width: 100px;
+	}
+
+	#logo-footer {
+		width: 150px;
+	}
+
+	#headline {
+		margin-top: 5%;
+		font-size: small;
+	}
+
+	#swiper-text-1 {
+		font-size: medium;
+	}
+
+	#swiper-text-2 {
+		font-size: medium;
+	}
+
+	#swiper-text-3 {
+		font-size: medium;
+	}
+  }
